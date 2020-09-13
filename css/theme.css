@@ -1,13 +1,15 @@
-.nav-link{
-	font-weight: bold;
-	color: white !important;
-}
+
 .bg-light{
-	background-color: darkgray !important;
+	background-color: #34abde63 !important;
 }
 .navbar-brand{
 	padding-left: 3rem;
 	padding-right: 3rem;
+	font-family:Playfair Display,serif; 
+    font-size: 2rem;
+    font-style: italic;
+    transition: color .1s;
+
 
 }
  .main_img{
@@ -16,6 +18,10 @@
     padding-top: 5rem;
     color: white;
  }
+.navbar-light .navbar-nav .active>.nav-link{
+	color: brown !important;
+	cursor: pointer;
+}
 .section_main_minihead{
 	text-align: center;
 	font-size: 0.5rem;
@@ -80,6 +86,8 @@
 	border: 0px;
 	font-style: italic;
 	font-weight: 600;
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
 }
 
 
@@ -144,7 +152,7 @@ footer{
 
 @media (min-width: 768px){
 .section {
-    padding: 3rem 0;
+    padding-top: 4rem ;
 }
 
 }
